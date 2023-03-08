@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class GetData {
     public static void main(String[] args) throws IOException {
-        APIKEY apikey = new APIKEY("");
+        APIKEY apikey = new APIKEY();
 
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/B190021/branchinfo/brcode"); /*URL*/
         urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + apikey); /*Service Key*/
