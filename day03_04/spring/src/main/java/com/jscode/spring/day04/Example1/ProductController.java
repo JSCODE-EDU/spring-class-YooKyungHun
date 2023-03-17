@@ -1,4 +1,4 @@
-package com.jscode.spring.day04;
+package com.jscode.spring.day04.Example1;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +14,7 @@ public class ProductController {
     public ProductController(ProductService productService) {
         this.productService = productService;
     }
+
     @GetMapping("")
     public List<Product> findAll() {
         return productService.findAll();

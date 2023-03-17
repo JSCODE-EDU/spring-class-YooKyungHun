@@ -1,4 +1,4 @@
-package com.jscode.spring.day04;
+package com.jscode.spring.day04.Example1;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;

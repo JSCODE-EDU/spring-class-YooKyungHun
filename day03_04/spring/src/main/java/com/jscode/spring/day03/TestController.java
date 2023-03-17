@@ -20,12 +20,14 @@ public class TestController {
     }
 
     @GetMapping("member/{name}")
+    // http://localhost:8080/member/HongGilDong
     public String getMyName(@PathVariable("name") String name) {
         log.info("-- Log Test (Path Variable) --");
         return "검색한 이름 : " + name;
     }
 
     @GetMapping("input")
+    // http://localhost:8080/input?name=HongGilDong
     public String getInputName(@RequestParam String name) {
         log.info("-- Log Test (Quary Parameter) --");
         return name;

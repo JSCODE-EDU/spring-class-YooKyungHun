@@ -18,9 +18,9 @@ repositories {
 // 의존성
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-//    implementation 'org.projectlombok:lombok' //추가
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // 롬복 추가!
+//    implementation 'org.projectlombok:lombok:1.18.20' //추가
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
 }

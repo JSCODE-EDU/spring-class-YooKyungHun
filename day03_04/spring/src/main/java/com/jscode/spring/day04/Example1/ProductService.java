@@ -1,4 +1,4 @@
-package com.jscode.spring.day04;
+package com.jscode.spring.day04.Example1;
 
 import java.util.List;
 import org.springframework.stereotype.Service;
