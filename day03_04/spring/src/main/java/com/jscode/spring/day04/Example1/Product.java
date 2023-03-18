@@ -1,11 +1,8 @@
 package com.jscode.spring.day04.Example1;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import lombok.Getter;
 
 @Getter
-//@JsonAutoDetect(fieldVisibility = Visibility.ANY)
 public class Product {
 
     private final String name;
