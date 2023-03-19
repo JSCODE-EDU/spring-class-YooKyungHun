@@ -12,7 +12,13 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
+    // 전체 상품을 조회하는 메소드
     public List<Product> findAll() {
         return productRepository.findAll();
+    }
+
+    // 특정 상품을 조회하는 메소드
+    public Product findOne(Integer id) {
+        return productRepository.findOne(id);
     }
 }

@@ -16,6 +16,7 @@ public class ProductController3 {
         this.productService = productService;
     }
 
+    // 상품 조회
     @GetMapping("/id/{id}")
     public Product3 getProductInfo(@PathVariable("id") String id) {
         return productService.getProductInfo(Integer.valueOf(id));

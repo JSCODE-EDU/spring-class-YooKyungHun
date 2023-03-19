@@ -15,8 +15,9 @@ public class ProductController2 {
         this.productService = productService;
     }
 
+    // 상품 등록 + 랜덤 id 추가(중복허용) 메소드
     @PostMapping("")
-    public Product2 createProduct(@RequestBody CreateProductReq createProductInfo) {
+    public Product2 createProduct(@RequestBody CreateProductReq2 createProductInfo) {
         Product2 tmp = productService.createProduct(createProductInfo);
         return tmp;
     }

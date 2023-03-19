@@ -1,8 +1,6 @@
 package com.jscode.spring.day04.Example2;
 
-import java.util.LinkedHashSet;
 import java.util.Random;
-import java.util.Set;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,7 +14,8 @@ public class ProductService2 {
         this.productRepository = productRepository;
     }
 
-    public Product2 createProduct(CreateProductReq createProductInfo) {
+    // 상품 등록 메소드
+    public Product2 createProduct(CreateProductReq2 createProductInfo) {
         String name = createProductInfo.name;
         Long price = createProductInfo.price;
 

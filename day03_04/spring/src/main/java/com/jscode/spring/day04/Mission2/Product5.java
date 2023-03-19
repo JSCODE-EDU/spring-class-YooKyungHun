@@ -1,17 +1,16 @@
-package com.jscode.spring.day04.Example3;
+package com.jscode.spring.day04.Mission2;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Product3 {
-    private Integer id;
+public class Product5 {
+
     private final String name;
     private Long price;
 
-    public Product3(Integer id, String name, Long price) {
-        this.id = id;
+    public Product5(String name, Long price) {
         this.name = name;
         this.price = price;
     }
