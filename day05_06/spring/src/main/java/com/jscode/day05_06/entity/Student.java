@@ -1,4 +1,4 @@
-package com.jscode.day05.entity;
+package com.jscode.day05_06.entity;
 
 import javax.persistence.*;
 
